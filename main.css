@@ -79,7 +79,7 @@ h1 {
 }
 
 #WCU {
-    padding:125px 0;
+    padding:125px 0 0;
     background-image: url(images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -117,4 +117,33 @@ h1 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+#CTA {
+    background-color: hsl(238, 22%, 44%);
+    padding: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.CTA__summary {
+    color: #fff;
+}
+.CTA__summary h2 {
+    margin-bottom: 20px;
+}
+.CTA__form {
+    margin-left: auto;
+    flex-direction: column;
+    width: 70%;
+}
+#mail {
+    padding: 15px;
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 15px;
+}
+.CTA__form input[type= button] {
+    width: 40%;
+    padding: 15px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border: 1px solid transparent;
 }
