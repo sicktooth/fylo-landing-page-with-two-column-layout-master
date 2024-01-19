@@ -96,6 +96,25 @@ h1 {
 }
 .testimonial__card { 
     background-color: #fff;
-    padding: ;
-    box-shadow: #000 0px 12px 20px;
+    margin-top: 50px;
+    padding: 28px 25px;
+    width: 376px;
+    box-shadow: hsl(0, 0%, 75%) -1px 2px 9px 0px;
+}
+.testimonial__card-description {
+    padding: 15px 0;
+}
+.customer__id {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.customer__id>div>p {
+    font-size: 12px;
+    color: hsl(228, 45%, 44%);
+}
+.testimonial__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
