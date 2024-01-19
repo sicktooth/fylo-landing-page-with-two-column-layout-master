@@ -147,3 +147,30 @@ h1 {
     background-color: hsl(224, 93%, 58%);
     border: 1px solid transparent;
 }
+
+#main__footer {
+    padding: 100px 100px;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+    grid-template-areas: 
+        'head head head head'
+        'contact nav docs social'
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 80px 1fr 70px;
+}
+#main__footer header {
+    grid-area: head;
+}
+.contact {
+    grid-area: contact;
+}
+.footer__nav {
+    grid-area: nav;
+}
+.footer__docs {
+    grid-area: docs;
+}
+.socials {
+    grid-area: social;
+}
