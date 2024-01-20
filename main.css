@@ -159,11 +159,24 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 80px 1fr 70px;
 }
+#main__footer li {
+    margin-bottom: 15px;
+}
+#main__footer li a {
+    color: #fff;
+}
 #main__footer header {
     grid-area: head;
 }
-.contact {
+.Contact {
     grid-area: contact;
+    flex-direction: column;
+}
+.Contact>div {
+    margin-bottom: 15px; 
+}
+.Contact span {
+    margin-left: 10px;
 }
 .footer__nav {
     grid-area: nav;
@@ -173,4 +186,15 @@ h1 {
 }
 .socials {
     grid-area: social;
+}
+.socials li{
+    border: 1.5px solid #fff;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 20px;
+}
+.socials li i {
+    padding: 11px;
+    font-size: 20px;
 }
