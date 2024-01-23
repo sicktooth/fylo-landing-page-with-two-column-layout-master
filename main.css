@@ -120,7 +120,20 @@ h1 {
 }
 
 .WCU a {
-    text-decoration: underline;
+    border-bottom: 1px solid rgb(61, 160, 143);
+    padding-bottom: 5px;
+    color: hsl(170, 45%, 43%);
+    transition: all 0.4s;
+}
+
+.WCU a:hover,
+.WCU a:active {
+    color: hsl(170, 45%, 62%);
+    border-bottom: 1px dotted hsl(170, 45%, 62%);
+}
+
+.arrow__img use:hover {
+    fill: hsl(170, 45%, 62%);
 }
 
 .WCU__image {
@@ -193,6 +206,12 @@ h1 {
     border: 1px solid transparent;
 }
 
+.CTA__form input[type= button]:hover,
+.CTA__form input[type= button]:active {
+    cursor: pointer;
+    background-color: hsl(224, 100%, 69%);
+}
+
                     /* FOOTER */
 
 #main__footer {
@@ -211,8 +230,9 @@ h1 {
     margin-bottom: 15px;
 }
 
-#main__footer li a {
+.fa-instagram, .fa-x, .fa-facebook-f, .footer__nav li a, .footer__docs li a {
     color: #fff;
+    transition: all 0.4s;
 }
 
 #main__footer header {
@@ -236,6 +256,11 @@ h1 {
     grid-area: nav;
 }
 
+.footer__nav li a:hover,
+.footer__docs li a:hover {
+    color: hsl(242, 54%, 62%);
+}
+
 .footer__docs {
     grid-area: docs;
 }
@@ -255,4 +280,16 @@ h1 {
 .socials li i {
     padding: 11px;
     font-size: 20px;
+}
+
+.fa-facebook-f:hover {
+    color: hsl(213.85,89.34%,52.16%);
+}
+
+.fa-x:hover {
+    color: hsl(202.82,89.12%,53.14%);
+}
+
+.fa-instagram:hover {
+    color: hsl(348.66,75.23%,57.25%);
 }
