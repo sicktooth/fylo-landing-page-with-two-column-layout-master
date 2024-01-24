@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1149px) {
+
+    section {
+        padding: 0 70px;
+    }
+
+    .homeNav {
+        padding: 45px 75px;
+    }
+
+    #email {
+        padding: 13px;
+        width: 65%;
+    }
+    #firstForm input[type= button] {
+        width: 30%;
+        padding: 13px;
+    }   
+    .intro__image {
+        width: 85%;
+    } 
+
+    #WCU {
+        padding: 100px 0 0;
+    }
+    .WCU {
+        padding: 100px 75px;
+    }
+    .WCU__image {
+        width: 95%;
+        align-self: center;
+    }
+
+    #CTA {
+        padding: 100px 75px;
+    }
+    .CTA__form input[type= button] {
+        width: 46%;
+        padding: 13px;
+    }
+    #mail {
+        padding: 13px;
+    }    
+
+    #main__footer {
+        padding: 100px 75px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .testimonial__card {
+        width: 352px;
+    }    
+}
