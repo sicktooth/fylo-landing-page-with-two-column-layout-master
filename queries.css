@@ -47,7 +47,57 @@
     }
 }
 @media only screen and (max-width: 1024px) {
+
+    .intro__summary .description {
+        padding-right: 6px;
+    }    
+
+    .WCU__summary .description:nth-of-type(1) {
+        padding-right: 29px;
+    }
+    .WCU__summary .description:nth-of-type(2) {
+        padding-right: 38px;
+    }    
     .testimonial__card {
         width: 352px;
-    }    
+    }
+
+    .CTA__form input[type= button] {
+        width: 51%;
+    }
+
+    .CTA__summary p {
+        padding-right: 36px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    #intro {
+        grid-template-columns: 1fr;
+    }
+    .intro__summary {
+        grid-row: 2 / 3;
+    }
+
+    .WCU {
+        grid-template-columns: 1fr;
+    }
+    .WCU__image {
+        grid-row: 1 / 2;
+    }
+
+    #CTA {
+        grid-template-columns: 1fr;
+    }
+    .CTA__form {
+        margin-left: 0;
+    }
+
+    #main__footer {
+        grid-template-areas: 
+            'head head'
+            'contact nav'
+            'docs social'
+        ;
+    }
 }
