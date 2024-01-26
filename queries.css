@@ -71,16 +71,33 @@
     }
 }
 @media only screen and (max-width: 768px) {
+    /* body {
+        text-align: center;
+    } */
+
+    section {
+        padding: 0 45px;
+    }
+
+    .homeNav {
+        padding: 45px 50px;
+    }
 
     #intro {
         grid-template-columns: 1fr;
+        gap: 70px;
     }
     .intro__summary {
         grid-row: 2 / 3;
     }
 
+    #WCU {
+        padding: 75px 0 0;
+    }
     .WCU {
         grid-template-columns: 1fr;
+        gap: 70px;
+        padding: 75px 45px;
     }
     .WCU__image {
         grid-row: 1 / 2;
@@ -88,6 +105,8 @@
 
     #CTA {
         grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 75px 45px;
     }
     .CTA__form {
         margin-left: 0;
@@ -99,5 +118,24 @@
             'contact nav'
             'docs social'
         ;
+        padding: 75px 45px;
     }
+    .socials {
+        margin-top: 15px;
+    }
+    .socials li {
+        margin-right: 20px;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .bg-curve-mobile {
+        display: block;
+    }
+    .WCU__head__img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
 }

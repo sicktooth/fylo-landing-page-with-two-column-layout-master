@@ -53,6 +53,7 @@ h1 {
 .homeNav {
     padding: 50px 100px;
     font-family: 'Raleway', sans-serif;
+    align-items: center;
 }
 
 .homeNav ul {
@@ -113,8 +114,12 @@ h1 {
     padding: 125px 0 0;
 }
 
-.WCU__head__img {
+.WCU__head__img,
+.bg-curve-mobile {
     width: 100%;
+}
+.bg-curve-mobile {
+    display: none;
 }
 
 .WCU {
