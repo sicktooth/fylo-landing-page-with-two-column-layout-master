@@ -57,9 +57,6 @@
     }
     .WCU__summary .description:nth-of-type(2) {
         padding-right: 38px;
-    }    
-    .testimonial__card {
-        width: 352px;
     }
 
     .CTA__form input[type= button] {
@@ -129,12 +126,68 @@
     }
 }
 @media only screen and (max-width: 425px) {
+    section {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .homeNav {
+        padding: 40px 15px;
+    }
+    .homeNav img {
+        width: 35%;
+    }
+    .homeNav ul li {
+        margin-left: 30px;
+    }
+
+    #intro {
+        padding-bottom: 40px;
+    }
+
     .bg-curve-mobile {
-        display: block;
+            display: block;
+        }
+        .WCU__head__img {
+            display: none;
+        }
+    .WCU {
+        padding: 70px 15px;
+        text-align: center;
     }
-    .WCU__head__img {
-        display: none;
+    .WCU__summary .description:nth-of-type(1),
+    .WCU__summary .description:nth-of-type(2) {
+        padding-right: 0;
+        text-align: justify;
+        margin: 22px 0;
     }
+    .testimonial__card {
+        text-align: justify;
+        width: auto;
+    }
+
+    #CTA {
+        gap: 24px;
+        padding: 75px 15px;
+    }
+    .CTA__form {
+        width: 100%;
+    }
+    .CTA__form input[type= button] {
+        width: 100%;
+    }
+
+    #main__footer {
+        grid-template-areas: 
+            'head'
+            'contact'
+            'nav'
+            'docs'
+            'social'
+        ;
+        gap: 30px;
+    }
+
 }
 @media only screen and (max-width: 375px) {
     
