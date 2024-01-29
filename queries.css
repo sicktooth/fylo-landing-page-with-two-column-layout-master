@@ -127,12 +127,12 @@
 }
 @media only screen and (max-width: 425px) {
     section {
-        padding: 0 15px;
+        /* padding: 0 15px; */
         text-align: center;
     }
 
     .homeNav {
-        padding: 40px 15px;
+        /* padding: 40px 15px; */
     }
     .homeNav img {
         width: 35%;
@@ -141,18 +141,18 @@
         margin-left: 30px;
     }
 
-    #intro {
+    /* #intro {
         padding-bottom: 40px;
-    }
+    } */
 
     .bg-curve-mobile {
-            display: block;
-        }
-        .WCU__head__img {
-            display: none;
-        }
+        display: block;
+    }
+    .WCU__head__img {
+        display: none;
+    }
     .WCU {
-        padding: 70px 15px;
+        /* padding: 70px 15px; */
         text-align: center;
     }
     .WCU__summary .description:nth-of-type(1),
@@ -163,12 +163,20 @@
     }
     .testimonial__card {
         text-align: justify;
+        line-height: 1.36;
         width: auto;
+        font-size: smaller;
+    }
+    .customer__id>div>p {
+        font-size: 10px;
     }
 
     #CTA {
         gap: 24px;
-        padding: 75px 15px;
+        /* padding: 75px 15px; */
+    }
+    .CTA__summary p {
+        padding-right: 0;
     }
     .CTA__form {
         width: 100%;
@@ -185,7 +193,10 @@
             'docs'
             'social'
         ;
-        gap: 30px;
+        /* gap: 30px; */
+    }
+    .socials ul {
+        justify-content: center;
     }
 
 }

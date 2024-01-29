@@ -243,7 +243,8 @@ h1 {
         'head head head head'
         'contact nav docs social'
     ;
-    grid-template-rows: 80px 1fr 70px;
+    row-gap: 30px;
+    /* grid-template-rows: 80px 1fr 70px; */
 }
 
 #main__footer li {
