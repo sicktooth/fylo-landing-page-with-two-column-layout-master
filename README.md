@@ -41,8 +41,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://fonts.googleapis.com/) - For fonts
 - [Styled Components](https://fontawesome.com/) - For icons
 
