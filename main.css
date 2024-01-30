@@ -64,6 +64,10 @@ h1 {
     margin-left: 50px;
 }
 
+.homeNav ul li a {
+    color: #000;
+}
+
                     /* INTRODUCTION */
 
 #intro {
