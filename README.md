@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot 2024-01-30 at 05-04-00 Frontend Mentor Fylo landing page with two column layout.jpg)
+![](Screenshot 2024-01-30 at 05-04-00 Frontend Mentor Fylo landing page with two column layout.jpg)
 
 ### Links
 
